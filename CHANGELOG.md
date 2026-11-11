@@ -3,13 +3,14 @@
 ## 1.0.0（2026-11-11 发布，版本号 1）
 
 - 安全：所有界面启用 `FLAG_SECURE`，禁止系统截屏 / 录屏 / 最近任务缩略图
+- 开源物料：截图目录 `docs/` 改为 `public/`，新增 Apache-2.0 根目录 `LICENSE`，README 增加 License 徽章与章节；`.gitignore` 忽略未来的 `/docs/`
 - 发布打包：release APK 产物名改为 `NanioPass-1.0.0.apk`（debug 仍为 `app-debug.apk`）；README 移除 APK 体积描述，新增简体中文 / 繁體中文 / English 三语版本
 
 - 国际化：新增 简体中文 / 繁體中文 / English / 日本語 / 한국어（跟随系统语言，未匹配默认 English）；全部文案使用 Android 官方 string 资源（`values/` + `values-zh-rCN/zh-rTW/ja/ko`），界面通过 `context.getString(R.string.*)` 读取，移除自定义翻译表
 - 产品整理：移除动态令牌添加弹窗中“可通过密钥或二维码添加”的冗余提示
 - 修复 zh-TW 资源文件名映射；README 截图全部替换为英文界面；冒烟脚本兼容中英文界面
 - 开源准备：清理源码注释中的“原版/复刻/原类名/逆向出处”等引用，注释改为中性功能说明；`.gitignore` 忽略 `analysis/` 与原始 APK
-- README 重排版：精简功能亮点、去掉包名/冒烟脚本/FAQ/已知限制，新增应用截图（`docs/screenshots/`）与测试 Demo 说明（不含安装命令）
+- README 重排版：精简功能亮点、去掉包名/冒烟脚本/FAQ/已知限制，新增应用截图（`public/screenshots/`）与测试 Demo 说明（不含安装命令）
 - 动态令牌列表副标题优先显示账号，避免与标题重复
 - 显示名改为 **NanioPass**；`applicationId`/`namespace` 迁移为 `cc.nanio.pass`（组件名同步；旧包数据需导出/导入迁移）
 - 自动填充：修复空库时无 `SaveInfo` 导致首次登录无法保存；本应用自身界面不再参与填充/保存（避免导出口令被当作密码保存）

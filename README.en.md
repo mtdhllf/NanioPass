@@ -10,6 +10,7 @@
   <img alt="Android 11+" src="https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white">
   <img alt="Kotlin 2.2" src="https://img.shields.io/badge/Kotlin-2.2-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Jetpack Compose" src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white">
+  <a href="LICENSE"><img alt="License Apache-2.0" src="https://img.shields.io/badge/License-Apache--2.0-blue"></a>
 </p>
 
 ---
@@ -20,11 +21,11 @@ NanioPass is a **fully offline** password manager: no account, no network access
 
 | Home | All passwords | Authenticator | Password details |
 |---|---|---|---|
-| ![Home](docs/screenshots/home.png) | ![All passwords](docs/screenshots/passwords.png) | ![Authenticator](docs/screenshots/totp.png) | ![Password details](docs/screenshots/detail.png) |
+| ![Home](public/screenshots/home.png) | ![All passwords](public/screenshots/passwords.png) | ![Authenticator](public/screenshots/totp.png) | ![Password details](public/screenshots/detail.png) |
 
 | Autofill | Security tips | Scan |
 |---|---|---|
-| ![Autofill](docs/screenshots/autofill.png) | ![Security](docs/screenshots/security.png) | ![Scan](docs/screenshots/scan.png) |
+| ![Autofill](public/screenshots/autofill.png) | ![Security](public/screenshots/security.png) | ![Scan](public/screenshots/scan.png) |
 
 ## Highlights
 
@@ -88,3 +89,7 @@ Unit tests:
 ```powershell
 .\gradlew.bat :app:testDebugUnitTest
 ```
+
+## License
+
+Apache-2.0, see [LICENSE](LICENSE).

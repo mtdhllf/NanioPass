@@ -10,6 +10,7 @@
   <img alt="Android 11+" src="https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white">
   <img alt="Kotlin 2.2" src="https://img.shields.io/badge/Kotlin-2.2-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Jetpack Compose" src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white">
+  <a href="LICENSE"><img alt="License Apache-2.0" src="https://img.shields.io/badge/License-Apache--2.0-blue"></a>
 </p>
 
 ---
@@ -20,11 +21,11 @@ NanioPass 是一款**完全离线**的本地密码管理器：无需账号、不
 
 | 首页 | 全部密码 | 动态令牌 | 密码详情 |
 |---|---|---|---|
-| ![首页](docs/screenshots/home.png) | ![全部密码](docs/screenshots/passwords.png) | ![动态令牌](docs/screenshots/totp.png) | ![密码详情](docs/screenshots/detail.png) |
+| ![首页](public/screenshots/home.png) | ![全部密码](public/screenshots/passwords.png) | ![动态令牌](public/screenshots/totp.png) | ![密码详情](public/screenshots/detail.png) |
 
 | 自动填充 | 安全性提示 | 扫码 |
 |---|---|---|
-| ![自动填充](docs/screenshots/autofill.png) | ![安全性](docs/screenshots/security.png) | ![扫码](docs/screenshots/scan.png) |
+| ![自动填充](public/screenshots/autofill.png) | ![安全性](public/screenshots/security.png) | ![扫码](public/screenshots/scan.png) |
 
 ## 核心功能
 
@@ -88,3 +89,7 @@ keyPassword=你的key密码
 ```powershell
 .\gradlew.bat :app:testDebugUnitTest
 ```
+
+## License
+
+Apache-2.0，见 [LICENSE](LICENSE)。

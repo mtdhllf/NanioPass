@@ -18,3 +18,6 @@ keystore.properties
 # 逆向分析资料与原始 APK（不随开源仓库分发）
 /analysis/
 /MiuiPasswords.apk
+
+# 未来 docs 目录不纳入版本管理
+/docs/
