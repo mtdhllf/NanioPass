@@ -2,6 +2,7 @@
 
 ## 1.0.0（2026-11-11 发布，版本号 1）
 
+- 安全：所有界面启用 `FLAG_SECURE`，禁止系统截屏 / 录屏 / 最近任务缩略图
 - 发布打包：release APK 产物名改为 `NanioPass-1.0.0.apk`（debug 仍为 `app-debug.apk`）；README 移除 APK 体积描述，新增简体中文 / 繁體中文 / English 三语版本
 
 - 国际化：新增 简体中文 / 繁體中文 / English / 日本語 / 한국어（跟随系统语言，未匹配默认 English）；全部文案使用 Android 官方 string 资源（`values/` + `values-zh-rCN/zh-rTW/ja/ko`），界面通过 `context.getString(R.string.*)` 读取，移除自定义翻译表

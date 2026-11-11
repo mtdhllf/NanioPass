@@ -46,6 +46,7 @@ NanioPass is a **fully offline** password manager: no account, no network access
 - Field-level encryption with Android Keystore AES-256-GCM (passwords and TOTP secrets)
 - Biometric unlock, auto-lock, and recently deleted
 - Local security tips (weak password / easy to guess)
+- Screenshot protection: blocks system screenshots, screen recording, and recent-task thumbnails (FLAG_SECURE)
 - No network permission; data stays on this device
 
 ### Data migration
