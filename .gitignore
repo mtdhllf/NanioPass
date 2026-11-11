@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+.kotlin/
+.idea/
+/local.properties
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 签名配置（真实 keystore 信息不入库；模板 keystore.properties.bak 保留）
+keystore.properties
+*.jks
+*.keystore
+
+# 逆向分析资料与原始 APK（不随开源仓库分发）
+/analysis/
+/MiuiPasswords.apk
